@@ -1,0 +1,10 @@
+10 'STICK() : 0Keyboard, 1Joystick
+20 '1:U, 2:UR, 3:R, 4:DR, 5:D, 6:DL, 7:L, 8:UL
+30 K=STICK(0)
+40 J=STICK(1)
+50 LOCATE 0,0:PRINT "KEY=";K:
+60 LOCATE 0,1:PRINT "JOY=";J
+70 GOTO 30
+
+
+
