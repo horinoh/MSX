@@ -1,4 +1,4 @@
- 10 ' arg1 0:8x8, 2:16x16
+ 10 ' arg1 0:8x8, 1:8x8x2, 2:16x16, 3:16x16x2
  20 SCREEN 1,0
  30 ' Sprite image
  40 FOR I=0 TO 7
